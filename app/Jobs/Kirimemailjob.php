@@ -76,7 +76,7 @@ class Kirimemailjob implements ShouldQueue
             }
 
             // Tunggu 24 jam sebelum melakukan kirim email lagi
-            sleep(3600);
+            sleep(86400);
         // }
     }
 }
